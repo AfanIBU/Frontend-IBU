@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height of the body to 100% of the viewport height */
+}
+header, footer {
+    background-color: #f9d7b7; /* Color of human skin, slightly darker */
+    padding: 20px; /* Increased padding for header and footer */
+    text-align: center;
+}
+header {
+    font-weight: bold;
+    font-size: 4rem; /* Increased font size for header */
+}
+header img.header-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+}
+main {
+    flex: 1; /* This will make the main content grow to fill the remaining space */
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #f0f0f0; /* Light grey background color */
+    padding: 10px; /* Add some padding to separate the images from the background */
+}
+.image-item {
+    flex: 0 0 30%; /* Adjust the width as needed */
+    text-align: center;
+}
+.image-text {
+    margin-top: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the viewport */
+    background-color: #f9d7b7; /* Color of human skin, slightly darker */
+    padding: 20px; /* Increased padding for footer */
+    text-align: center;
+}
